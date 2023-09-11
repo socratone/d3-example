@@ -40,7 +40,7 @@ const Axis = () => {
 
   return (
     <svg width={width} height={height}>
-      <g ref={gx} transform={`translate(0,${height - marginBottom})`} />
+      <g ref={gx} transform={`translate(0, ${height - marginBottom})`} />
       <g ref={gy} transform={`translate(${marginLeft}, 0)`} />
     </svg>
   );
